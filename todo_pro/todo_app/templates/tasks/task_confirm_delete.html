@@ -1,7 +1,0 @@
-<h1>Vazifani o‘chirish</h1>
-<p>{{ task.title }} ni o‘chirmoqchimisiz?</p>
-<form method="post">
-    {% csrf_token %}
-    <button type="submit">Ha, o‘chirilsin</button>
-</form>
-<a href="{% url 'task_list' %}">Ortga</a>
